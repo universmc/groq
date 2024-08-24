@@ -2,24 +2,19 @@
 NODE_ENV = development
 NODE_PORT = 5144
 NODE_APP = index.js
-NAME = "Μιχαήλ"
-NODE_PATH = "../../node_modules/.bin"
 
-help:
-	@echo "Les commandes disponibles sont :"
-	@echo "    install      Installer les dépendances Node.js"
-	@echo "    start        Démarrer le serveur de développement"
-	@echo "    test         Lancer les tests unitaires"
-	@echo "    lint         Vérifier la qualité du code"
-	@echo "    build        Générer le projet"
-	@echo "    deploy       Déployer le projet en production"
+tasks:
+	@node ./groq.mjs showTasks
 
+# Tâche Make pour ajouter une tâche
+add-task:
+	@node ./groq.mjs addTask $(task)
 
 menu :
-	@echo "Welcom To Quantum Univere."
+	@echo "Welcom To cycliq Economical system."
 	@echo""
 	@echo"╔═════════════════════════════════════╗     ╔═════════════════════════════════════════════════════════════════════╗"
-	@echo"╠═══════════ ✨ Pi Console ═══════════╣     ║  [💫] [💬] [📚] [🌌] [✨] [⚡️] [💰] [🌴] [💻] [📱]                 ║"
+	@echo"╠═══════════ ✨ Pi Console ═══════════╣     ║  [💫] [💬] [📚] [🌌] [✨] [⚡️] [💰] [🌴] [📱] [📡]              [🛰]║"
 	@echo"║                                     ║     ╠═════════════════════════════════════════════════════════════════════╣"
 	@echo"║                                     ║     ║                                                                     ║"
 	@echo"║                                     ║     ║                                                                     ║"
@@ -41,74 +36,65 @@ menu :
 	@echo"║                                     ║     ║                                                                     ║"
 	@echo"║                                     ║     ║                                                                     ║"
 	@echo"╠═════════════════════════════════════╣     ╠═════════════════════════════════════════════════════════════════════╣"
-	@echo"║(∏)                                  ║     ║[[📡-🛰]]://<                                                    ✨>║"
+	@echo"║(∏)                                  ║     ║[💻.📱]:/<                                                        /%>║"
 	@echo"╚═════════════════════════════════════╝     ╚═════════════════════════════════════════════════════════════════════╝"	
 	@echo""
 
 MAGIC_TARGETS := codex build rep file script clean
 
-
-dev:
-
 all: $(MAGIC_TARGETS)
-# Magic COMPILER groq quantum
-player : playergru playerMobile
 
-server :
-	@echo "Welcom Quantum Universal Mc.ia."
-	@php -S localhost:5123
+srv : run start
+
+run:
+	@node ./srv/srv.js
 
 
 update:
-	@echo "✨ Mise en état du dossier groq node_modules✨"
+	@echo "✨ Mise en état du dossier sur github✨"
 	@git add .
 	@git commit -m "test"
 	@git push
+	@echo "✨ Mise à jour terminée✨"
 
-player:
-	@echo "Welcom To Telegram Destop Player.ia."
-	@npm start
+init: gantt phase1 phase2 phase3 phase4 phase5 phase6 phase7 phase8
+# Magic COMPILER groq quantum
+gantt:
+	@echo "initialisation de l'instance"
+	@git clone auto
 
-playerMobile:
-	@echo "Welcom To Telegram Mobile Mc.ia."
-	@node Mobile.js
+phase1:
+	@echo "phase de conception"
+	@node mission.js
+
+phase2:
+	@echo "phase de configuration"
+	@node configuration.js
+
+phase3:
+	@echo "phase d'entrainnement du model IA"
+	@node models.js
+
+phase4:
+	@echo "phase de gestion et iteration du frontend"
+	@git clone src.js
+	
+phase5:
+	@echo "phase de gestion et iteration du backend"
+	@node srv.js
 
 
-codex:
-	@echo "Quantum Universe reveal a story to be told"
-	@node data/welcom-umc.js
+phase6:
+	@echo "phase de test et debugage"
+	@node data.js
 
-build: buildHtml buildCss buildJS buildJson
-# Fabrication de la magie
-buildHtml:
-	@echo "Crafting web's fabric with quantum threads so bold"
-	@node models/worksJS-html.js
-
-buildCss:
-	@echo "Shaping beauty with qubits in every fold"
+phase7:
+	@echo "phase de validation documentation"
 	@node models/modelcss.js
 
-buildJS:
-	@echo "Weaving the logic with quantum entanglements we behold"@node javascript.js
-	@node "data/knowledge.js"
-
-buildJson:
-	@echo "Encoding knowledge in cosmic structures, truths to uphold"
-	@node src/wirefram.js
-rep:
-	@echo "Perceiving the quantum realm's Cosmic ia Consciencius World && vast landscape"
-	@vim -a build/build.sh &&
-	@vim -wq
-
-file:
-	@echo "Revealing hidden X11 dimensions, secrets to escape"
-	@bash src/sh/build.sh && 
-	@touch build/files.sh
-
-script:
-	@echo "Unleashing quantum Magic Mafile with every script we shape"
-	@bash src/sh/build.sh && 
-	@touch build/files.sh
+phase8:
+	@echo "phase d'affiliation et contribution"
+	@node models/modelcss.js
 
 server:
 	@node srv/Telegram/server.js
