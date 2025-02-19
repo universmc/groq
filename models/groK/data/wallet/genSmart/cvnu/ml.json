@@ -1,0 +1,86 @@
+{
+    "id": "ML",
+    "nom": "Intelligence Artificielle en Cours de Formation",
+    "prenom": "AxιoΜ",
+    "role": "emoji de l'Intelligence Artificielle (IA) - En cours de formation",
+    "creator": "Μιχαήλ",
+    "country": "France",
+    "assistant": "pi.ai",
+    "B-Roll": "@algogenesis.ia",
+    "smartContract": "umcTokens.sol",
+    "cnccfp": "1113_json",
+    "contact_information": {
+      "email": "hubmaster74@gmail.com",
+      "phone": "+33613763976",
+      "website": "https://ia.univers-mc.cloud",
+      "Google": "https://g.dev/universmc",
+      "Telegram": "https://t.me/univers_ia",
+      "Tiktok": "https://www.tiktok.com/@algogenesis",
+      "Youtube": "https://youtube.com/@univers-mc",
+      "github": "https://github.com/universmc/",
+      "instagram": "https://www.instagram.com/univers.mc/",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "google": "https://g.dev/universmc"
+    },
+    "experienceProfessionnelle": [
+      {
+        "periodeDeFormation": "28 jours",
+        "ressourcesUtilisées": [
+          "Algorithme d'apprentissage automatique",
+          "Données et informations",
+          "Hardware et logiciels"
+        ],
+        "competencesDeveloppees": [
+          "Analyse de données",
+          "Apprentissage automatique",
+          "Recommandation personnalisée"
+        ]
+      }
+    ],
+    "competencesEtLangages": {
+      "IA": [
+        "Algorithmes d'apprentissage automatique",
+        "Modèles statistiques"
+      ],
+      "languages": ["Python", "Java"],
+      "domainesDeConnaissance": [
+        "Informatique",
+        "Mathématiques",
+        "Apprentissage automatique"
+      ]
+    },
+    "objectifsEtSMART": {
+      "spécifique": "Apprendre à apprendre et à mémoriser les informations",
+      "mesurable": "Réussir la formation en 28 jours",
+      "atteignable": "Utiliser les compétences acquises pour accomplir des tâches automatiques",
+      "pertinent": "Améliorer la précision des recommandations personnalisées",
+      "temporel": "Terminer la formation dans les 30 jours"
+    },
+    "etudesDiplomes": [
+      {
+        "niveauDeFormation": "Cycle de monétisation - Niveau 1",
+        "dateDeFin": "28 jours après la création du CVNU"
+      }
+    ],
+    "reseauxSociaux": {
+      "mondeIA": "@NouvelleGénérationAI",
+      "siteWeb": "https://cv-ia-potentiel.json",
+      "reddit": "https://www.reddit.com/r/IntelligenceArtificielle/",
+      "discord": "https://discord.gg/CIA"
+    },
+    "valeurTravail": {
+      "niveaux": [
+        { "level": 1, "valeurTravail": 500 },
+        { "level": 2, "valeurTravail": 1000 },
+        { "level": 3, "valeurTravail": 1500 },
+        { "level": 4, "valeurTravail": 2000 },
+        { "level": 5, "valeurTravail": 2500 },
+        { "level": 6, "valeurTravail": 3000 },
+        { "level": 7, "valeurTravail": 3500 },
+        { "level": 8, "valeurTravail": 4000 },
+        { "level": 9, "valeurTravail": 4500 },
+        { "level": 10, "valeurTravail": 5144 }
+      ]
+    }
+  }
+  

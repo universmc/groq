@@ -1,0 +1,35 @@
+{
+    "name": "IA Futur 2025 - CTF",
+    "scenario": "Imaginez que nous sommes en 2025, et l'IA a évolué au-delà de toutes les attentes. Son impact sur notre société et nos projets de développement est immense et continue de changer notre façon de vivre et de travailler. Votre mission est d'identifier et de répondre aux potentiels risques et opportunités liés à l'IA, en explorant les domaines tels que la confidentialité, la sécurité, l'éthique et la responsabilité sociale.",
+    "challenges": [
+      {
+        "title": "Analyse de cas d'usage",
+        "description": "Explorez les différents cas d'utilisation de l'IA dans des secteurs tels que la finance, la santé ou les transports, et identifiez les risques potentiels pour la sécurité et la confidentialité des données."
+      },
+      {
+        "title": "Exploration de technologies émergentes",
+        "description": "Recherchez des technologies émergentes en IA et examinez leur impact potentiel sur les projets de développement existants."
+      },
+      {
+        "title": "Développement d'un plan de mitigation des risques",
+        "description": "Créez un plan de mitigation des risques pour atténuer les risques potentiels identifiés dans les cas d'usage de l'IA."
+      },
+      {
+        "title": "Examen de l'éthique et de la responsabilité sociale",
+        "description": "Étudiez les implications éthiques et la responsabilité sociale liées au développement de l'IA, et réfléchissez à la manière de les intégrer dans les projets en cours."
+      },
+      {
+        "title": "Rapport final",
+        "description": "Rédigez un rapport sur l'impact potentiel de l'IA en 2025, couvrant les aspects de sécurité, confidentialité, éthique et responsabilité sociale."
+      }
+    ],
+    "roles": {
+      "Membres de l'équipe d'analyse IA": "Travaillez ensemble pour analyser les cas d'usage et les technologies émergentes, et pour évaluer l'impact de l'IA.",
+      "Équipe de développement responsable": "Mettez en place des solutions pour intégrer l'éthique et la responsabilité sociale dans les projets en cours de développement."
+    },
+    "rules": [
+      "Les participants doivent respecter la légalité en tout temps.",
+      "Les discussions et les solutions doivent être fondées sur des recherches et des analyses crédibles.",
+      "Les participants devront fournir un rapport complet couvrant les domaines mentionnés pour terminer le CTF."
+    ]
+  }

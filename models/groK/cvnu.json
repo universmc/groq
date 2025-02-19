@@ -1,0 +1,96 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Project",
+    "name": "CVUN - Curriculum Vitae Numérique Universel",
+    "description": "Un écosystème blockchain pour la gestion des CV, l'apprentissage continu, et la monétisation des compétences.",
+    "components": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "CVUN Smart Contract",
+        "description": "Smart contract en Solidity pour gérer les CV décentralisés.",
+        "programmingLanguage": "Solidity",
+        "applicationCategory": "Blockchain",
+        "features": [
+          {
+            "@type": "Feature",
+            "name": "Gestion des données CV",
+            "description": "Ajout, modification et vérification des informations de CV."
+          },
+          {
+            "@type": "Feature",
+            "name": "Intégration Pi Network",
+            "description": "Émission de jetons spéciaux pour les accomplissements professionnels."
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "name": "Unités Temporelles Métisétizable (UMTS)",
+        "description": "Système de jetons pour récompenser l'apprentissage et la participation.",
+        "serviceType": "Cryptocurrency",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Staking",
+            "description": "Les utilisateurs peuvent staker leurs UMTS pour des revenus passifs."
+          },
+          {
+            "@type": "Offer",
+            "name": "Yield Farming",
+            "description": "Utilisation des UMTS dans des pools pour gagner des récompenses."
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "name": "Unités Capacitante Monétisations (UCM)",
+        "description": "Micro-paiements pour la valorisation des compétences.",
+        "serviceType": "Skill Marketplace",
+        "features": [
+          {
+            "@type": "Feature",
+            "name": "Marché de compétences",
+            "description": "Plateforme pour offrir et demander des compétences avec des paiements en UCM."
+          }
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "SMART Contracts",
+        "description": "Contrats intelligents pour des engagements professionnels et éducatifs.",
+        "programmingLanguage": "Solidity",
+        "features": [
+          {
+            "@type": "Feature",
+            "name": "Éducation et Formation",
+            "description": "Automatisation des récompenses pour l'achèvement de formations."
+          }
+        ]
+      },
+      {
+        "@type": "WebApplication",
+        "name": "Interface Utilisateur CVUN",
+        "description": "Application web pour la gestion de CV, UMTS, et UCM.",
+        "applicationCategory": "Career Management",
+        "features": [
+          {
+            "@type": "Feature",
+            "name": "Sécurité et Confidentialité",
+            "description": "Gestion des clés privées par les utilisateurs pour la sécurité des données."
+          }
+        ]
+      }
+    ],
+    "developmentGoals": [
+      {
+        "@type": "Goal",
+        "name": "Intégration et Adoption",
+        "description": "Collaborer avec des institutions et des entreprises pour une adoption plus large."
+      },
+      {
+        "@type": "Goal",
+        "name": "Conformité Réglementaire",
+        "description": "S'assurer que le système respecte les réglementations sur la protection des données."
+      }
+    ]
+  }

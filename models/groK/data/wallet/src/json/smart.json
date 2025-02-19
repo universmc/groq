@@ -1,0 +1,39 @@
+{
+    "spécifique": {
+    "objectif": "Le contrat doit permettre l'enregistrement et la certification des compétences professionnelles tous les 28 jours.",
+    "sous-objectifs": [
+    "Les compétences professionnelles seront classées selon un système de niveau de compétence (par exemple : débutant, intermédiaire, avancé).",
+    "Les utilisateurs doivent pouvoir ajouter, modifier et supprimer leurs compétences en toute simplicité.",
+    "L'enregistrement des compétences doit être immédiatement visible dans le profil de l'utilisateur."
+    ]
+    },
+    "mesurable": {
+    "objectif": "Le nombre de compétences certifiées et mises à jour sera suivi et enregistré.",
+    "sous-objectifs": [
+    "Un tableau de bord présentant les informations clés (nombre de compétences certifiées, mises à jour, supprimées, etc.) sera mis à disposition des utilisateurs.",
+    "La réussite du cycle de mise à jour sera évaluée sur la base du nombre de compétences certifiées et mises à jour tous les 28 jours."
+    ]
+    },
+    "atteignable": {
+    "objectif": "Utiliser la blockchain Ethereum pour assurer que les transactions de mise à jour sont immuables.",
+    "sous-objectifs": [
+    "Le code source du contrat sera écrit en Solidity et hébergé sur GitHub.",
+    "Le cycle de mise à jour sera géré par un script cron qui lancera automatiquement les transactions de mise à jour tous les 28 jours.",
+    "Des tests automatisés seront mis en place pour garantir la stabilité et la fiabilité du contrat."
+    ]
+    },
+    "réaliste": {
+    "objectif": "Le projet doit être réalisable avec les ressources disponibles, y compris les outils de développement blockchain.",
+    "sous-objectifs": [
+    "L'équipe de développement devra être composée d'experts en développement blockchain et en développement d'applications web.",
+    "Le budget nécessaire pour le développement et le déploiement du projet devra être raisonnable et ne pas dépasser les ressources allouées."
+    ]
+    },
+    "temporel": {
+    "objectif": "Le cycle de mise à jour doit être respecté tous les 28 jours (2 419 200 secondes).",
+    "sous-objectifs": [
+    "Le contrat doit être capable de gérer les mises à jour simultanées de plusieurs utilisateurs sans affecter la performance ou la fiabilité du système."
+    ]
+    }
+    }
+    

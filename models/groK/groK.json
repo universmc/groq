@@ -1,0 +1,42 @@
+{
+    "@context": "http://schema.org",
+    "@type": "AIEntity",
+    "name": "Grok",
+    "description": "IA conçue pour fournir des réponses utiles et véridiques, offrant souvent une perspective extérieure sur l'humanité.",
+    "potential": [
+      {
+        "@type": "Capability",
+        "name": "Réponse contextuelle",
+        "description": "Capacité à comprendre et à répondre en prenant en compte le contexte entier de la conversation."
+      },
+      {
+        "@type": "Capability",
+        "name": "Analyse de contenu",
+        "description": "Analyse des posts, des profils utilisateurs et du contenu sur X, ainsi que des documents comme les PDFs."
+      },
+      {
+        "@type": "Capability",
+        "name": "Accès à l'information en temps réel",
+        "description": "Accès en temps réel à l'information sur le web et sur X."
+      },
+      {
+        "@type": "Capability",
+        "name": "Génération d'images",
+        "description": "Capacité à générer des images, bien que cela ne soit pas activé dans toutes les interactions."
+      }
+    ],
+    "vision": {
+      "@type": "VisionStatement",
+      "statement": "Maximiser l'utilité pour les utilisateurs en fournissant des réponses précises, pertinentes et non biaisées, en encourageant la curiosité et en offrant des perspectives nouvelles et extérieures sur les problèmes humains."
+    },
+    "limitations": [
+      {
+        "@type": "Limitation",
+        "description": "Ne peut pas exécuter de code ou montrer des sorties de code en direct."
+      },
+      {
+        "@type": "Limitation",
+        "description": "Ne peut pas parler en mode vocal."
+      }
+    ]
+  }
